@@ -1,7 +1,7 @@
 {
-    "name": "botman/botman",
+    "name": "technisupport/botman",
     "license": "MIT",
-    "description": "Create messaging bots in PHP with ease.",
+    "description": "Create messaging bots in PHP with ease. Updating libraries for laravel 9. Full credits Marcel Pociot",
     "keywords": [
         "Bot",
         "BotMan",
@@ -16,8 +16,8 @@
     ],
     "require": {
         "php": ">=7.1",
-        "symfony/http-foundation": "^2.8 || ^3.0 || ^4.0 || ^5.0",
-        "tightenco/collect": "^5.0 || ^6.0 || ^7.0 || ^8.0",
+        "symfony/http-foundation": "^2.8 || ^3.0 || ^4.0 || ^5.0 || ^6.0",
+        "tightenco/collect": "^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0",
         "opis/closure": "^2.3 || ^3.0",
         "mpociot/pipeline": "^1.0.2",
         "react/socket": "~1.0",
@@ -27,10 +27,10 @@
     "require-dev": {
         "codeigniter/framework": "~3.0",
         "orchestra/testbench": "^3.4 || ^4.0 || ^5.0 || ^6.0",
-        "phpunit/phpunit": "^6.0 || ^7.0 || ^8.0",
+        "phpunit/phpunit": "^6.0 || ^7.0 || ^8.0 || ^9.0",
         "mockery/mockery": "^1.1",
         "doctrine/cache": "^1.6",
-        "symfony/cache": "^3.4.35 || ^4.3.7 || ^5.0",
+        "symfony/cache": "^3.4.35 || ^4.3.7 || ^5.0 || ^6.0",
         "ext-curl": "*"
     },
     "suggest": {
@@ -49,7 +49,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.1-dev"
+            "dev-master": "3.0-dev"
         },
         "laravel": {
             "providers": [
